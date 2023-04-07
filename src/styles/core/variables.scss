@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Maragsa";
+    src: url("../../fonts/Maragsa-Display.woff") format('woff');
+}
+
+$font_title: 'Maragsa';
+$font_text: 'Montserrat', sans-serif;
+
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

@@ -1,1 +1,10 @@
-/* Aquí van tus estilos */
+@import './core/reset.scss';
+@import './core/variables.scss';
+
+
+
+
+
+.title {
+    font-family: $font_title;
+}
