@@ -1,6 +1,6 @@
 /* SECCIÓN DE IMPORT */
 import '../styles/App.scss';
-// - Imágenes
+import Landing from './Landing';
 
  /* SECCIÓN DEL COMPONENTE */
 
@@ -15,7 +15,8 @@ const App = () => {
 
   /* HTML */
 return <div className="App">
-  <h1 className='title'>HOLA</h1></div>;
+  <Landing></Landing>
+  </div>;
 }
 
 /* PROP-TYPES */
