@@ -17,4 +17,11 @@
         font-family: $font_text;
         font-size: 20px;
     }
+
+    &__image {
+        position: absolute;
+        height: 350px;
+        width: 350px;
+        transform: translate(-30vw, -5vh) rotate(50deg);
+    }
 }
