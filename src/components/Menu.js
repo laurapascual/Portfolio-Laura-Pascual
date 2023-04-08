@@ -8,8 +8,8 @@ const Menu = () => {
             <p className="menu__name">LAURA PASCUAL</p>
             <nav>
                 <ul className="menu__list">
-                    <li>ABOUT ME |</li>
-                    <li>PROJECTS |</li>
+                    <a href="#aboutMe" className='menu__link'><li>ABOUT ME </li></a>|
+                    <a href="#projects" className='menu__link'><li>PROJECTS </li></a>|
                     <li>CONTACT</li>
                 </ul>
             </nav>

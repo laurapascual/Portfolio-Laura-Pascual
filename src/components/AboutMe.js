@@ -3,7 +3,7 @@ import shape from '../images/blueShape.svg';
 
 const AboutMe = () => {
     return(
-        <div className='aboutMe'>
+        <div className='aboutMe' id='aboutMe'>
             <h3 className='aboutMe__title'>ABOUT ME</h3>
             <img src={shape} alt="" className='aboutMe__shape'/>
             <img src={Laura} alt="" className='aboutMe__image'/>

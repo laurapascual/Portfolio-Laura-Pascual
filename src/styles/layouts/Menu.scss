@@ -18,6 +18,11 @@
         font-size: 20px;
     }
 
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+
     &__image {
         position: absolute;
         height: 350px;

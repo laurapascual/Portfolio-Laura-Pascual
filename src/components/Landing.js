@@ -13,7 +13,7 @@ const Landing = () => {
             <h1 className="landing__title--black">PORTFOLIO</h1>
             <h1 className="landing__title">PORTFOLIO</h1>
             <h1 className="landing__title">PORTFOLIO</h1>
-            <i class="fa-solid fa-arrow-down"></i>
+            <a href="#aboutMe" className='landing__link'><i className="fa-solid fa-arrow-down"></i></a>
         </div>
     )
 }
