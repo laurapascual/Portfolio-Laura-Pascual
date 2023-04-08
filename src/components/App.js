@@ -1,6 +1,7 @@
 /* SECCIÓN DE IMPORT */
 import '../styles/App.scss';
 import Landing from './Landing';
+import Menu from './Menu';
 
  /* SECCIÓN DEL COMPONENTE */
 
@@ -14,9 +15,12 @@ const App = () => {
   /* FUNCIONES Y VARIABLES AUXILIARES PARA PINTAR EL HTML */
 
   /* HTML */
-return <div className="App">
-  <Landing></Landing>
-  </div>;
+  return (
+    <div className="App">
+      <Landing></Landing>
+      <Menu></Menu>
+    </div>
+  );
 }
 
 /* PROP-TYPES */
