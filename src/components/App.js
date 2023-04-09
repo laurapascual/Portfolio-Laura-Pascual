@@ -13,7 +13,6 @@ const App = () => {
       <Landing></Landing>
       <Menu></Menu>
       <AboutMe></AboutMe>
-      <Menu></Menu>
       <Projects></Projects>
     </div>
   );
