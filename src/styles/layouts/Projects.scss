@@ -1,0 +1,12 @@
+.projects {
+    &__title {
+        font-family: $font_title;
+        text-align: center;
+        font-size: 50px;
+    }
+    &__div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 50px;
+    }
+}
