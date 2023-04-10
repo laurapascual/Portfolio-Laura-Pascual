@@ -7,6 +7,8 @@ const Projects= () => {
             <div className='projects__div'>
                 <Project></Project>
                 <Project></Project>
+                <Project></Project>
+                <Project></Project>
             </div>
         </div>
     )

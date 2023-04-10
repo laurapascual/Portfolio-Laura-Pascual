@@ -1,11 +1,8 @@
-import whiteWaves from '../images/waveShape.svg';
-
 
 const Menu = () => {
     return(
         <div className="menu">
-            <img src={whiteWaves} alt="" className='menu__image'/>
-            <p className="menu__name">LAURA PASCUAL</p>
+            <a href="/" className="menu__name">LAURA PASCUAL</a>
             <nav>
                 <ul className="menu__list">
                     <a href="#aboutMe" className='menu__link'><li>ABOUT ME </li></a>|

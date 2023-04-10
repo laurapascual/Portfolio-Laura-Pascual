@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import '../styles/App.scss';
 import AboutMe from './AboutMe';
 import Landing from './Landing';
@@ -7,13 +8,19 @@ import Projects from './Projects';
 
 
 const App = () => {
+  const [isMenuShown, setIsMenuShown] = useState(false);
+
+  const handleMenuShown = () => {
+    setIsMenuShown(true)
+  }
+
 
   return (
     <div className="App">
-      <Landing></Landing>
-      <Menu></Menu>
-      <AboutMe></AboutMe>
-      <Projects></Projects>
+      {!isMenuShown && <Landing handleMenuShown={handleMenuShown}/>}
+      {isMenuShown && <Menu/>}
+      <AboutMe/>
+      <Projects/>
     </div>
   );
 }

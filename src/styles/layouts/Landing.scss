@@ -33,21 +33,18 @@
             }
             &--2 {
                 position: absolute;
-                transform: translate(45vw, 55vh) rotate(-90deg);
+                transform: translate(-50vw, 25vh) rotate(50deg);
             }
             &--3 {
                 position: absolute;
-                transform: translate(-50vw, 25vh) rotate(50deg);
-            }
-            &--4 {
-                position: absolute;
-                transform: translate(50vw, -15vh) rotate(0deg);
+                transform: translate(50vw, -5vh) rotate(0deg);
             }
         }
 
         &__link {
             text-decoration: none;
             color: black;
+            height: 200px;
         }
 
 }
@@ -58,6 +55,15 @@
 }
 
 .fa-arrow-down:hover {
-    rotate: 360deg;
-    transition: rotate 1s;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(50px);
+    }
 }
