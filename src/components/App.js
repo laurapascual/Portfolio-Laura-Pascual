@@ -17,8 +17,8 @@ const App = () => {
 
   return (
     <div className="App">
-      {!isMenuShown && <Landing handleMenuShown={handleMenuShown}/>}
-      {isMenuShown && <Menu/>}
+      <Landing handleMenuShown={handleMenuShown} isMenuShown={isMenuShown}/>
+      <Menu isMenuShown={isMenuShown}/>
       <AboutMe/>
       <Projects/>
     </div>

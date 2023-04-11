@@ -1,8 +1,12 @@
 import wavesImage from '../images/waves.png';
 
-const Landing = ({handleMenuShown}) => {
+const Landing = ({handleMenuShown, isMenuShown}) => {
     return(
-        <div className="landing" id='/'>
+        <div className="landing" id='/' style={{
+            opacity: isMenuShown ? "0" : "1",
+            transition: "all .3s",
+            visibility: isMenuShown ? "hidden" : "visible"
+        }}>
             <img src={wavesImage} alt="" className='landing__image--1'/>
             <img src={wavesImage} alt="" className='landing__image--2'/>
             <img src={wavesImage} alt="" className='landing__image--3'/>

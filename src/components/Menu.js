@@ -1,7 +1,12 @@
 
-const Menu = () => {
+const Menu = ({isMenuShown}) => {
+    console.log({isMenuShown})
     return(
-        <div className="menu">
+        <div className="menu" style={{
+            opacity: !isMenuShown ? "0" : "1",
+            transition: "all .3s",
+            visibility: !isMenuShown ? "hidden" : "visible"
+        }}>
             <a href="/" className="menu__name">LAURA PASCUAL</a>
             <nav>
                 <ul className="menu__list">
