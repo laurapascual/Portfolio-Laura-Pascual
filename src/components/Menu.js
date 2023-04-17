@@ -12,7 +12,7 @@ const Menu = ({isMenuShown}) => {
                 <ul className="menu__list">
                     <a href="#aboutMe" className='menu__link'><li>ABOUT ME </li></a>|
                     <a href="#projects" className='menu__link'><li>PROJECTS </li></a>|
-                    <li>CONTACT</li>
+                    <a href="#contact" className='menu__link'><li>CONTACT </li></a>
                 </ul>
             </nav>
         </div>

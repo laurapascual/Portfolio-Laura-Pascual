@@ -1,0 +1,19 @@
+.contact {
+    &__title {
+        font-family: $font_title;
+        text-align: center;
+        font-size: 50px;
+    }
+    &__desc {
+        font-family: $font_text;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__rrss {
+        font-family: $font_text;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
