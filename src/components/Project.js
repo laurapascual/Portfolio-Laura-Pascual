@@ -1,17 +1,14 @@
-import cover from '../images/TURQUIA.PNG';
 
-const project= () => {
+const project= ({eachProject}) => {
+    const technologies = eachProject.technologies.map((eachTechnology) => <p className='project__tecn'>{eachTechnology}</p>)
+
     return(
         <div className='project'>
-            <img src={cover} alt="" className='project__image'/>
-            <h4 className='project__title'>PROYECTO 1</h4>
-            <i className="fa-brands fa-square-github"></i>
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            <ul> 
-                <li className='project__tecn'>React</li>
-                <li className='project__tecn'>Javascript</li>
-                <li className='project__tecn'>Node JS</li>
-            </ul>
+            <img src={eachProject.image} alt="" className='project__image'/>
+            <h4 className='project__title'>{eachProject.name}</h4>
+            <a href={eachProject.repo} Target="_blank"><i className="fa-brands fa-square-github"></i></a>
+            <a href={eachProject.demo} Target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            {technologies}
         </div>
     )
 }

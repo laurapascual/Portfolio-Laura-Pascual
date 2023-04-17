@@ -1,14 +1,14 @@
 import Project from './Project';
 
-const Projects= () => {
+const Projects= ({projectsList}) => {
+    const dataHtml = projectsList.map((eachProject) => {
+        return <Project eachProject={eachProject}></Project>
+    })
     return(
         <div className='projects' id='projects'>
             <h3 className="projects__title">PROJECTS</h3>
             <div className='projects__div'>
-                <Project></Project>
-                <Project></Project>
-                <Project></Project>
-                <Project></Project>
+                <ul>{dataHtml}</ul>
             </div>
         </div>
     )
