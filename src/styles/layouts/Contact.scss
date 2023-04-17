@@ -15,9 +15,12 @@
     }
     &__rrss {
         font-family: $font_text;
+        font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
+        color: black;
     }
     &__section {
         display: grid;
@@ -41,5 +44,9 @@
     }
     &__section2 {
         padding-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 }
