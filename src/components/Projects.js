@@ -1,7 +1,7 @@
 import Project from './Project';
 
-const Projects= ({projectsList}) => {
-    const dataHtml = projectsList.map((eachProject) => {
+const Projects= ({projectList}) => {
+    const dataHtml = projectList.map((eachProject) => {
         return <Project eachProject={eachProject}></Project>
     })
     return(
