@@ -7,9 +7,7 @@ const Projects= ({projectList}) => {
     return(
         <div className='projects' id='projects'>
             <h3 className="projects__title">PROJECTS</h3>
-            <div className='projects__div'>
-                <ul>{dataHtml}</ul>
-            </div>
+            <ul className='projects__list'>{dataHtml}</ul>
         </div>
     )
 }
