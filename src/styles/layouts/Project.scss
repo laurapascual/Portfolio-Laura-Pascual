@@ -1,12 +1,18 @@
 .project {
     text-align: center;
-    padding-top: 20px;
+    padding-bottom: 50px;
     &__image {
         width: 300px;
         height: 180px;
-        
+        margin-bottom: 10px;
     }
-
+    &__row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
     &__title {
         font-family: $font_text;
         font-size: 20px;
@@ -33,7 +39,7 @@
         font-size: 25px;
         text-decoration: none;
         color: black;
-        margin: 0 10px;
+        padding: 0 5px;
     }
 
 }
