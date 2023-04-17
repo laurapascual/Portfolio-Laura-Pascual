@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import Landing from './Landing';
 import Menu from './Menu';
 import Projects from './Projects';
+import Contact from './Contact';
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
       <Menu isMenuShown={isMenuShown}/>
       <AboutMe/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }
