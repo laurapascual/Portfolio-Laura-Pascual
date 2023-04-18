@@ -1,6 +1,5 @@
 
 const Menu = ({isMenuShown}) => {
-    console.log({isMenuShown})
     return(
         <div className="menu" style={{
             opacity: !isMenuShown ? "0" : "1",
