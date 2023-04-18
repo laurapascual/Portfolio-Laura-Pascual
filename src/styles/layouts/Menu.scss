@@ -2,6 +2,7 @@
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 70px;
@@ -9,19 +10,28 @@
     top: 0;
     left: 0;
     width: 100vw;
+    @media (min-width: $breakpoint-tablet) {
+        flex-direction: row;
+    }
 
     &__name {
         font-family: $font_title;
-        font-size: 30px;
+        font-size: 15px;
         text-decoration: none;
         color: white;
+        @media (min-width: $breakpoint-tablet) {
+            font-size: 30px;
+        }
     }
 
     &__list {
         display: flex;
         gap: 10px;
         font-family: $font_text;
-        font-size: 20px;
+        font-size: 12px;
+        @media (min-width: $breakpoint-tablet) {
+            font-size: 20px;
+        }
     }
 
     &__link {

@@ -8,20 +8,28 @@
         &__name {
             font-family: $font_text;
             font-weight: 400;
-            padding-bottom: 75px;
+            padding-bottom: 60px;
         }
 
         &__title {
             font-family: $font_title;
-            font-size: 100px;
+            font-size: 60px;
             color: white;
             -webkit-text-stroke: 1.5px black;
             margin-bottom: -25px;
+
+            @media (min-width: $breakpoint-tablet) {
+                font-size: 100px;
+            }
             
             &--black{
                 font-family: $font_title;
-                font-size: 100px;
+                font-size: 60px;
                 margin-bottom: -25px;
+
+                @media (min-width: $breakpoint-tablet) {
+                    font-size: 100px;
+                }
             }
         }
 
@@ -29,15 +37,27 @@
         
             &--1{
                 position: absolute;
-                transform: translate(-45vw, -40vh) rotate(-90deg);
+                transform: translate(-70vw, -40vh) rotate(-90deg);
+                
+                @media (min-width: $breakpoint-tablet) {
+                    transform: translate(-45vw, -40vh) rotate(-90deg);
+                }
             }
             &--2 {
                 position: absolute;
-                transform: translate(-50vw, 25vh) rotate(50deg);
+                transform: translate(-90vw, 30vh) rotate(50deg);
+
+                @media (min-width: $breakpoint-tablet) {
+                    transform: translate(-50vw, 25vh) rotate(50deg);
+                }
             }
             &--3 {
                 position: absolute;
-                transform: translate(50vw, -5vh) rotate(0deg);
+                transform: translate(-20vw, -5vh) rotate(0deg);
+
+                @media (min-width: $breakpoint-tablet) {
+                    transform: translate(50vw, -5vh) rotate(0deg);
+                }
             }
         }
 

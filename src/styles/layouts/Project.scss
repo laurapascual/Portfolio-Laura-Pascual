@@ -2,9 +2,13 @@
     text-align: center;
     padding-bottom: 50px;
     &__image {
-        width: 300px;
-        height: 180px;
+        width: 250px;
+        height: 150px;
         margin-bottom: 10px;
+        @media (min-width: $breakpoint-tablet) {
+            width: 300px;
+            height: 180px;
+        }
     }
     &__row{
         display: flex;
@@ -15,9 +19,12 @@
     }
     &__title {
         font-family: $font_text;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
         padding: 5px 0;
+        @media (min-width: $breakpoint-tablet) {
+            font-size: 20px;
+        }
     }
 
     &__tecn {
@@ -32,14 +39,20 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 0 125px;
+        padding: 0 75px;
         gap: 10px;
+        @media (min-width: $breakpoint-tablet) {
+            padding: 0 125px;
+        }
     }
     &__icons {
-        font-size: 25px;
+        font-size: 20px;
         text-decoration: none;
         color: black;
         padding: 0 5px;
+        @media (min-width: $breakpoint-tablet) {
+            font-size: 25px;
+        }
     }
 
 }
