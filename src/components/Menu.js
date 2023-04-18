@@ -6,7 +6,7 @@ const Menu = ({isMenuShown}) => {
             transition: "all .3s",
             visibility: !isMenuShown ? "hidden" : "visible"
         }}>
-            <a href="/" className="menu__name">LAURA PASCUAL</a>
+            <a href="#/" className="menu__name">LAURA PASCUAL</a>
             <nav>
                 <ul className="menu__list">
                     <a href="#aboutMe" className='menu__link'><li>ABOUT ME </li></a>|
