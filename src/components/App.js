@@ -21,6 +21,7 @@ import we from '../images/overImages/we.PNG';
 import quotes from '../images/overImages/quotes.PNG';
 import answer from '../images/overImages/anwser.PNG';
 import comp from '../images/overImages/compass.PNG';
+import Footer from './Footer';
 
 const App = () => {
   const projectList = [{
@@ -115,6 +116,7 @@ const App = () => {
       <AboutMe/>
       <Projects projectList={projectList}/>
       <Contact/>
+      <Footer/>
     </div>
     
   );

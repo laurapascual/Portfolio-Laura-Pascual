@@ -1,4 +1,4 @@
-import Laura from '../images/lauraImage.png';
+import Laura from '../images/laura.png';
 import shape from '../images/blueShape.svg';
 
 const AboutMe = () => {
