@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e3f7da2a.css",
+    "main.js": "./static/js/main.0aedb6ca.js",
+    "static/media/run.PNG": "./static/media/run.7cf6b0c1aa72feeb10f9.PNG",
+    "static/media/brujula.PNG": "./static/media/brujula.e25ad410bf6d7e41561d.PNG",
+    "static/media/harry.PNG": "./static/media/harry.d1f4515c4709f4f7fd2d.PNG",
+    "static/media/cocktails.PNG": "./static/media/cocktails.424d45c1c25ac1569e65.PNG",
+    "static/media/compass.PNG": "./static/media/compass.c9a992515f051991924a.PNG",
+    "static/media/cocktail.PNG": "./static/media/cocktail.031fc8d4f1d7c89cd24e.PNG",
+    "static/media/potter.PNG": "./static/media/potter.53a69d22600f2226e41b.PNG",
+    "static/media/projects.PNG": "./static/media/projects.e1360baea7fd307c9157.PNG",
+    "static/media/laura.png": "./static/media/laura.f85132f06cb9113d6922.png",
+    "static/media/card.PNG": "./static/media/card.6d4a25c663bf3db82065.PNG",
+    "static/media/project.PNG": "./static/media/project.0e8b51bb3b02f2bb18b6.PNG",
+    "static/media/friends.PNG": "./static/media/friends.ea670c22f41abe7c1ed6.PNG",
+    "static/media/waves.png": "./static/media/waves.ec4be4487925beb2b727.png",
+    "static/media/we.PNG": "./static/media/we.9fcd8afe6890f7e1b2dc.PNG",
+    "static/media/quotes.PNG": "./static/media/quotes.f4e87c711e897bd0dfd9.PNG",
+    "static/media/cards.PNG": "./static/media/cards.381e3b6b52e890ae8151.PNG",
+    "static/media/Maragsa-Display.woff": "./static/media/Maragsa-Display.7a8132a7f36f6203eeed.woff",
+    "static/media/number.PNG": "./static/media/number.b3f75aeb39c3eeee3ad4.PNG",
+    "static/media/anwser.PNG": "./static/media/anwser.567ce9cd5d752da0ffb0.PNG",
+    "static/media/blueShape.svg": "./static/media/blueShape.53fe0558c5fbf506b3a0dc2695ce7665.svg",
+    "index.html": "./index.html",
+    "main.e3f7da2a.css.map": "./static/css/main.e3f7da2a.css.map",
+    "main.0aedb6ca.js.map": "./static/js/main.0aedb6ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3f7da2a.css",
+    "static/js/main.0aedb6ca.js"
+  ]
+}
