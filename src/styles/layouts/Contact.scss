@@ -33,7 +33,7 @@
     }
     &__rrss {
         font-family: $font_text;
-        font-size: 16px;
+        font-size: 14px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -41,6 +41,9 @@
         color: black;
         text-align: center;
         @media (min-width: $breakpoint-tablet) {
+            font-size: 16px;
+        }
+        @media (min-width: $breakpoint-desktop) {
             font-size: 18px;
         }
     }
@@ -61,5 +64,12 @@
         justify-content: center;
         gap: 10px;
         background-color: beige;
+        padding: 10px 0;
+        &--container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
     }
 }
