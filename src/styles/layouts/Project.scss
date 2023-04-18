@@ -1,15 +1,11 @@
 .project {
     text-align: center;
     padding-bottom: 50px;
-    &__image {
-        width: 250px;
-        height: 150px;
-        margin-bottom: 10px;
-        @media (min-width: $breakpoint-tablet) {
-            width: 300px;
-            height: 180px;
-        }
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     &__row{
         display: flex;
         justify-content: center;
@@ -60,7 +56,62 @@
 
 }
 
-.project__image:hover {
-    border: solid black 2px;
-    transform: scale(1.09);  
+
+.project__article {
+    position: relative;
+    transition: all .3s ease;
+    width: 250px;
+    margin-bottom: 10px;
+        @media (min-width: $breakpoint-tablet) {
+            width: 300px;
+        }
+    
 }
+
+.project__article img:first-child {
+    box-shadow: 0 60px 60px -60px rgba(0,0,0,0.7);
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.project__article img:last-child {
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.project__article:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(  to bottom, transparent 10%);
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.project__article:hover:before{
+    opacity: 1;
+}
+
+.project__article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+.project__article:hover {
+    transform: perspective(250px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0);
+}
+

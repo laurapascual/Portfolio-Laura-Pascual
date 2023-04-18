@@ -4,7 +4,10 @@ const project= ({eachProject}) => {
 
     return(
         <div className='project'>
+            <article className='project__article'>
             <img src={eachProject.image} alt="" className='project__image'/>
+            <img src={eachProject.overImage} alt=""></img>
+            </article>
             <div className="project__row">
                 <h4 className='project__title'>{eachProject.name.toUpperCase()}</h4>
                 <div className="project__container">

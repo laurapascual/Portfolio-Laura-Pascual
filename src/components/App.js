@@ -13,10 +13,12 @@ import compass from '../images/projectImages/brujula.PNG';
 import number from '../images/projectImages/number.PNG';
 import cards from '../images/projectImages/cards.PNG';
 import projects from '../images/projectImages/projects.PNG';
+import potter from '../images/overImages/potter.PNG'
 
 const App = () => {
   const projectList = [{
     image: harry,
+    overImage: potter,
     name: "Harry Potter",
     repo: "https://github.com/laurapascual/harry-potter",
     demo: "https://laurapascual.github.io/harry-potter/",
