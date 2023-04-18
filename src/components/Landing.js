@@ -5,7 +5,7 @@ const Landing = ({handleMenuShown, isMenuShown}) => {
         <div className="landing" id='/' style={{
             opacity: isMenuShown ? "0" : "1",
             transition: "all .3s",
-            visibility: isMenuShown ? "hidden" : "visible"
+            marginTop: isMenuShown && "-100vh"
         }}>
             <img src={wavesImage} alt="" className='landing__image--1'/>
             <img src={wavesImage} alt="" className='landing__image--2'/>
@@ -16,7 +16,7 @@ const Landing = ({handleMenuShown, isMenuShown}) => {
             <h1 className="landing__title--black">PORTFOLIO</h1>
             <h1 className="landing__title">PORTFOLIO</h1>
             <h1 className="landing__title">PORTFOLIO</h1>
-            <a href="#aboutMe" className='landing__link' onClick={handleMenuShown}><i className="fa-solid fa-arrow-down"></i></a>
+            <div className='landing__link' onClick={handleMenuShown}><i className="fa-solid fa-arrow-down"></i></div>
         </div>
     )
 }

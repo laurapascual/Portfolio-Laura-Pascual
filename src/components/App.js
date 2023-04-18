@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '../styles/App.scss';
 import AboutMe from './AboutMe';
 import Landing from './Landing';
@@ -72,13 +72,25 @@ const App = () => {
     technologies: ["HTML", "CSS", "SASS", "JavaScript"]
   }];
 
-
   const [isMenuShown, setIsMenuShown] = useState(false);
 
   const handleMenuShown = () => {
     setIsMenuShown(true)
   }
 
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > 0) {
+      setIsMenuShown(true);
+    } else {
+      setIsMenuShown(false);
+    }
+  };
 
   return (
     <div className="App">
@@ -88,12 +100,9 @@ const App = () => {
       <Projects projectList={projectList}/>
       <Contact/>
     </div>
+    
   );
 }
 
 
 export default App; 
-
-
-
- 
