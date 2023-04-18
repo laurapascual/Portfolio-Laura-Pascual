@@ -72,5 +72,8 @@
             padding-right: 150px;
             font-size: 18px;
         }
+        @media (min-width: $breakpoint-desktop) {
+            font-size: 20px;
+        }
     }
 }
