@@ -1,14 +1,27 @@
 .aboutMe {
+    position: relative;
     &__title {
         position: absolute;
         text-align: center;
         font-size: 30px;
         font-family: $font_title;
         padding-top: 40px;
-        transform: translate(40vw, 10vh);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
         @media (min-width: $breakpoint-tablet) {
             font-size: 50px;
+            padding-top: 100px;
         }
+    }
+
+    &__container {
+        position: relative;
+        height: 600px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     &__shape {
@@ -16,17 +29,19 @@
         height: 300px;
         width: 300px;
         z-index: -2;
-        transform: translate(10vw, 10vh);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
 
         @media (min-width: $breakpoint-tablet) {
             height: 600px;
             width: 600px;
-            transform: translate(20vw, 0vh);
         }
         @media (min-width: $breakpoint-screen) {
             height: 600px;
             width: 600px;
-            transform: translate(30vw, 0vh);
         }
     }
 
@@ -35,11 +50,14 @@
         height: 200px;
         border-radius: 100px;
         z-index: -1;
-        transform: translate(40vw, 25vh);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
         @media (min-width: $breakpoint-tablet) {
             height: 300px;
             width: 200px;
-            transform: translate(40vw, 25vh);
         }
     }
 
@@ -47,12 +65,10 @@
         text-align: justify;
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 400px;
         font-family: $font_text;
         font-size: 14px;
         line-height: 25px;
         @media (min-width: $breakpoint-tablet) {
-            padding-top: 600px;
             padding-left: 150px;
             padding-right: 150px;
             font-size: 18px;
