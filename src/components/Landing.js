@@ -5,7 +5,7 @@ const Landing = ({handleMenuShown, isMenuShown}) => {
         <div className="landing" id='/' style={{
             opacity: isMenuShown ? "0" : "1",
             transition: "all .3s",
-            marginTop: isMenuShown && "-100vh"
+            marginTop: isMenuShown && "-99vh"
         }}>
             <img src={wavesImage} alt="" className='landing__image--1'/>
             <img src={wavesImage} alt="" className='landing__image--2'/>

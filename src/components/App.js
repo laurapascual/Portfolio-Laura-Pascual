@@ -13,7 +13,14 @@ import compass from '../images/projectImages/brujula.PNG';
 import number from '../images/projectImages/number.PNG';
 import cards from '../images/projectImages/cards.PNG';
 import projects from '../images/projectImages/projects.PNG';
-import potter from '../images/overImages/potter.PNG'
+import potter from '../images/overImages/potter.PNG';
+import project from '../images/overImages/project.PNG';
+import card from '../images/overImages/card.PNG';
+import cocktail from '../images/overImages/cocktail.PNG';
+import we from '../images/overImages/we.PNG';
+import quotes from '../images/overImages/quotes.PNG';
+import answer from '../images/overImages/anwser.PNG';
+import comp from '../images/overImages/compass.PNG';
 
 const App = () => {
   const projectList = [{
@@ -26,6 +33,7 @@ const App = () => {
   },
   {
     image: cards,
+    overImage: card,
     name: "Awesome Cards",
     repo: "https://github.com/laurapascual/create-cards",
     demo: "https://laurapascual.github.io/create-cards/",
@@ -33,6 +41,7 @@ const App = () => {
   },
   {
     image: projects,
+    overImage: project,
     name: "Proyectos y ya estaría",
     repo: "https://github.com/laurapascual/create-projects",
     demo: "https://proyectos-y-ya-estaria.onrender.com/",
@@ -40,6 +49,7 @@ const App = () => {
   },
   {
     image: run,
+    overImage: we,
     name: "We 🧡 run",
     repo: "https://github.com/laurapascual/we-run",
     demo: "https://laurapascual.github.io/we-run/",
@@ -47,6 +57,7 @@ const App = () => {
   },
   {
     image: cocktails,
+    overImage: cocktail,
     name: "Cocktail finder",
     repo: "https://github.com/laurapascual/cocktail-finder",
     demo: "https://laurapascual.github.io/cocktail-finder/",
@@ -54,6 +65,7 @@ const App = () => {
   },
   {
     image: friends,
+    overImage: quotes,
     name: "Friends quotes",
     repo: "https://github.com/laurapascual/friends-quotes",
     demo: "https://laurapascual.github.io/friends-quotes/",
@@ -61,6 +73,7 @@ const App = () => {
   },
   {
     image: compass,
+    overImage: comp,
     name: "Compass Project",
     repo: "https://github.com/laurapascual/compass-project",
     demo: "https://laurapascual.github.io/compass-project/",
@@ -68,6 +81,7 @@ const App = () => {
   },
   {
     image: number,
+    overImage: answer,
     name: "Answer the number",
     repo: "https://github.com/laurapascual/Answer-the-number",
     demo: "https://laurapascual.github.io/Answer-the-number/",
