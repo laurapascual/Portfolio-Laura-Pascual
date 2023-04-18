@@ -23,7 +23,7 @@
             width: 600px;
             transform: translate(20vw, 0vh);
         }
-        @media (min-width: $breakpoint-monitor) {
+        @media (min-width: $breakpoint-screen) {
             height: 600px;
             width: 600px;
             transform: translate(30vw, 0vh);

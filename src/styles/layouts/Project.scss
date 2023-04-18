@@ -44,6 +44,9 @@
         @media (min-width: $breakpoint-tablet) {
             padding: 0 125px;
         }
+        @media (min-width: $breakpoint-screen) {
+            padding: 0 350px;
+        }
     }
     &__icons {
         font-size: 20px;
