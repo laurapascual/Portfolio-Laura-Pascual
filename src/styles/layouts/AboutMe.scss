@@ -23,6 +23,11 @@
             width: 600px;
             transform: translate(20vw, 0vh);
         }
+        @media (min-width: $breakpoint-monitor) {
+            height: 600px;
+            width: 600px;
+            transform: translate(30vw, 0vh);
+        }
     }
 
     &__image {
@@ -44,12 +49,13 @@
         padding-right: 50px;
         padding-top: 400px;
         font-family: $font_text;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 25px;
         @media (min-width: $breakpoint-tablet) {
             padding-top: 600px;
             padding-left: 150px;
             padding-right: 150px;
+            font-size: 18px;
         }
     }
 }

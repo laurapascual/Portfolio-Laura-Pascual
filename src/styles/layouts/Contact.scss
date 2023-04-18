@@ -1,5 +1,8 @@
 .contact {
-    padding-top: 100px;
+    padding-top: 50px;
+    @media (min-width: $breakpoint-tablet) {
+        padding-top: 100px;
+    }
     &__title {
         font-family: $font_title;
         text-align: center;
@@ -14,34 +17,45 @@
         align-items: flex-end;
         justify-content: center;
         font-size: 16px;
-        padding-right: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
         line-height: 25px;
+        text-align: center;
         @media (min-width: $breakpoint-tablet) {
             padding-right: 60px;
+            padding-left: 0px;
             font-size: 18px;
         }
     }
     &__rrss {
         font-family: $font_text;
-        font-size: 18px;
+        font-size: 16px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-decoration: none;
         color: black;
+        text-align: center;
+        @media (min-width: $breakpoint-tablet) {
+            font-size: 18px;
+        }
     }
     &__section {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        @media (min-width: $breakpoint-tablet) {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 
     &__shape {
         position: absolute;
-        transform: translate(15vw, 0vh) rotate(50deg);
+        transform: translate(0vw, 0vh) rotate(50deg);
         z-index: -1;
         width: 250px;
 
         @media (min-width: $breakpoint-tablet) {
+            transform: translate(15vw, 0vh) rotate(50deg);
             width: 400px;
         }
     }
@@ -58,12 +72,19 @@
             width: 450px;
             font-size: 60px;
         }
+        @media (min-width: $breakpoint-monitor) {
+            padding-left: 400px;
+            width: 600px;
+        }
     }
     &__section2 {
-        padding-top: 200px;
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        @media (min-width: $breakpoint-tablet) {
+            padding-top: 200px;
+        }
     }
 }
