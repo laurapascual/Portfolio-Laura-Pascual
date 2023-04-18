@@ -11,6 +11,8 @@ import cocktails from '../images/projectImages/cocktails.PNG';
 import friends from '../images/projectImages/friends.PNG';
 import compass from '../images/projectImages/brujula.PNG';
 import number from '../images/projectImages/number.PNG';
+import cards from '../images/projectImages/cards.PNG';
+import projects from '../images/projectImages/projects.PNG';
 
 const App = () => {
   const projectList = [{
@@ -19,6 +21,20 @@ const App = () => {
     repo: "https://github.com/laurapascual/harry-potter",
     demo: "https://laurapascual.github.io/harry-potter/",
     technologies: ["HTML", "SASS", "JavaScript", "React"]
+  },
+  {
+    image: cards,
+    name: "Awesome Cards",
+    repo: "https://github.com/laurapascual/create-cards",
+    demo: "https://laurapascual.github.io/create-cards/",
+    technologies: ["HTML", "SASS", "JavaScript", "React"]
+  },
+  {
+    image: projects,
+    name: "Proyectos y ya estaría",
+    repo: "https://github.com/laurapascual/create-projects",
+    demo: "https://proyectos-y-ya-estaria.onrender.com/",
+    technologies: ["HTML", "SASS", "React", "Node.js", "Express.js", "MySQL Workbench"]
   },
   {
     image: run,
