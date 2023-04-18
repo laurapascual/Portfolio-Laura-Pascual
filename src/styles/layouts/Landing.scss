@@ -33,10 +33,9 @@
         }
 
         &__image{
-        
             &--1{
                 position: absolute;
-                transform: translate(-80vw, -40vh) rotate(-90deg);
+                transform: translate(-60vw, -40vh) rotate(-90deg);
                 width: 300px;
                 @media (min-width: $breakpoint-tablet) {
                     transform: translate(-45vw, -40vh) rotate(-90deg);
@@ -47,7 +46,7 @@
             }
             &--2 {
                 position: absolute;
-                transform: translate(-80vw, 30vh) rotate(50deg);
+                transform: translate(-60vw, 30vh) rotate(50deg);
                 width: 300px;
                 @media (min-width: $breakpoint-tablet) {
                     transform: translate(-50vw, 25vh) rotate(50deg);
@@ -58,7 +57,7 @@
             }
             &--3 {
                 position: absolute;
-                transform: translate(70vw, 30vh) rotate(0deg);
+                transform: translate(60vw, 15vh) rotate(0deg);
                 width: 300px;
 
                 @media (min-width: $breakpoint-tablet) {

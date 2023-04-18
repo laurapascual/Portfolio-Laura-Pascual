@@ -3,7 +3,8 @@ const contact= () => {
         <div className='contact' id="contact">
             <h4 className="contact__title">CONTACT</h4>
             <div className='contact__section'> 
-                <p className="contact__desc">To contact me you can do it through the following social networks or my email. I am always open to listen and receive feedback. Thank you!</p>
+                <p className="contact__desc">Feel free to reach me by email. I'll do my best to respond to you as soon as possible. If you prefer, you can also connect with me on social media. Thank you for taking an interest in my work. If you have any questions, comments, or just want to say hi, I'd love to hear from you. 
+                </p>
                 <div className='contact__section2'>
                     <div className="contact__section2--container">
                         <i class="fa-brands fa-github-alt"></i><a href="https://github.com/laurapascual" className="contact__rrss">github.com/laurapascual</a>
