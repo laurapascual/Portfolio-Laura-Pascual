@@ -10,7 +10,7 @@ import run from '../images/projectImages/run.PNG';
 import cocktails from '../images/projectImages/cocktails.PNG';
 import friends from '../images/projectImages/friends.PNG';
 import compass from '../images/projectImages/brujula.PNG';
-import number from '../images/projectImages/number.PNG';
+import number from '../images/projectImages/number.PNG'
 import cards from '../images/projectImages/cards.PNG';
 import projects from '../images/projectImages/projects.PNG';
 import potter from '../images/overImages/potter.PNG';
@@ -19,7 +19,7 @@ import card from '../images/overImages/card.PNG';
 import cocktail from '../images/overImages/cocktail.PNG';
 import we from '../images/overImages/we.PNG';
 import quotes from '../images/overImages/quotes.PNG';
-import answer from '../images/overImages/anwser.PNG';
+import guess from '../images/overImages/guess.PNG';
 import comp from '../images/overImages/compass.PNG';
 import Footer from './Footer';
 
@@ -82,11 +82,11 @@ const App = () => {
   },
   {
     image: number,
-    overImage: answer,
-    name: "Answer the number",
-    repo: "https://github.com/laurapascual/Answer-the-number",
-    demo: "https://laurapascual.github.io/Answer-the-number/",
-    technologies: ["HTML", "CSS", "SASS", "JavaScript"]
+    overImage: guess,
+    name: "Guess the number",
+    repo: "https://github.com/laurapascual/guess-the-number",
+    demo: "https://laurapascual.github.io/guess-the-number/",
+    technologies: ["HTML", "CSS", "JavaScript"]
   }];
 
   const [isMenuShown, setIsMenuShown] = useState(false);
