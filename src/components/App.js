@@ -6,7 +6,7 @@ import Menu from './Menu';
 import Projects from './Projects';
 import Contact from './Contact';
 import harry from '../images/projectImages/harry.PNG';
-import run from '../images/projectImages/run.PNG';
+import buy from '../images/projectImages/buy.PNG';
 import cocktails from '../images/projectImages/cocktails.PNG';
 import friends from '../images/projectImages/friends.PNG';
 import compass from '../images/projectImages/brujula.PNG';
@@ -22,6 +22,7 @@ import quotes from '../images/overImages/quotes.PNG';
 import guess from '../images/overImages/guess.PNG';
 import comp from '../images/overImages/compass.PNG';
 import Footer from './Footer';
+import i18next from 'i18next';
 
 const App = () => {
   const projectList = [{
@@ -49,11 +50,11 @@ const App = () => {
     technologies: ["HTML", "SASS", "React", "Node.js", "Express.js", "MySQL Workbench"]
   },
   {
-    image: run,
+    image: buy,
     overImage: we,
-    name: "We 🧡 run",
-    repo: "https://github.com/laurapascual/we-run",
-    demo: "https://laurapascual.github.io/we-run/",
+    name: "We ❤️ Buy",
+    repo: "https://github.com/laurapascual/we-buy",
+    demo: "https://laurapascual.github.io/we-buy/",
     technologies: ["HTML", "CSS", "SASS"]
   },
   {
@@ -108,6 +109,21 @@ const App = () => {
       setIsMenuShown(false);
     }
   };
+
+
+
+/* i18next.changeLanguage('en', (err, t) => {
+  if (err) return console.log('something went wrong loading', err);
+  t('key'); // -> same as i18next.t
+});
+
+// using Promises
+i18next
+  .changeLanguage('en')
+  .then((t) => {
+    t('key'); // -> same as i18next.t
+  }); */
+
 
   return (
     <div className="App">
