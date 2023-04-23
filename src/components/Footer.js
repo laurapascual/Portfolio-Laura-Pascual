@@ -1,7 +1,7 @@
-const Footer = () => {
+const Footer = ({t}) => {
     return(
         <div className="footer">
-        <p>Developed by Laura Pascual Mateo 👩‍💻</p>
+        <p>{t("footer")} Laura Pascual Mateo 👩‍💻</p>
         <p>2023 ©️</p>
         </div>
     )

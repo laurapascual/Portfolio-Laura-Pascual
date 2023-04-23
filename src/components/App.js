@@ -22,7 +22,7 @@ import quotes from '../images/overImages/quotes.PNG';
 import guess from '../images/overImages/guess.PNG';
 import comp from '../images/overImages/compass.PNG';
 import Footer from './Footer';
-import i18next from 'i18next';
+import { useTranslation } from "react-i18next";
 
 const App = () => {
   const projectList = [{
@@ -91,6 +91,11 @@ const App = () => {
   }];
 
   const [isMenuShown, setIsMenuShown] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  function handleClick(lang) {
+    i18n.changeLanguage(lang);
+  }
 
   const handleMenuShown = () => {
     setIsMenuShown(true)
@@ -111,28 +116,14 @@ const App = () => {
   };
 
 
-
-/* i18next.changeLanguage('en', (err, t) => {
-  if (err) return console.log('something went wrong loading', err);
-  t('key'); // -> same as i18next.t
-});
-
-// using Promises
-i18next
-  .changeLanguage('en')
-  .then((t) => {
-    t('key'); // -> same as i18next.t
-  }); */
-
-
   return (
     <div className="App">
       <Landing handleMenuShown={handleMenuShown} isMenuShown={isMenuShown}/>
-      <Menu isMenuShown={isMenuShown}/>
-      <AboutMe/>
-      <Projects projectList={projectList}/>
-      <Contact/>
-      <Footer/>
+      <Menu isMenuShown={isMenuShown} handleClick={handleClick}/> 
+      <AboutMe t={t}/>
+      <Projects projectList={projectList} t={t}/>
+      <Contact t={t}/>
+      <Footer t={t}/>
     </div>
     
   );
