@@ -6,7 +6,7 @@ const Projects= ({projectList, t}) => {
     })
     return(
         <div className='projects' id='projects'>
-            <h3 className="projects__title">{t("titleProjects")}</h3>
+            <h3 className="projects__title">{t("projects.title")}</h3>
             <ul className='projects__list'>{dataHtml}</ul>
         </div>
     )

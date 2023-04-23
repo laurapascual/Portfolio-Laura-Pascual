@@ -1,9 +1,9 @@
 const contact= ({t}) => {
     return(
         <div className='contact' id="contact">
-            <h4 className="contact__title">{t("titleContact")}</h4>
+            <h4 className="contact__title">{t("contact.title")}</h4>
             <div className='contact__section'> 
-                <p className="contact__desc">{t("contactDesc")}
+                <p className="contact__desc">{t("contact.desc")}
                 </p>
                 <div className='contact__section2'>
                     <div className="contact__section2--container">

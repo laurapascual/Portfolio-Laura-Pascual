@@ -1,8 +1,15 @@
 {
-  "titleAboutMe": "ABOUT ME",
-  "bio": "Hello, my name is Laura, and I am a 27-year-old recent graduate from a web programming bootcamp. After studying journalism, I realized it was not my passion, and I worked in different sectors, including commerce, catering, and customer service. Eventually, I found my way into the world of telecommunications, where I was given the opportunity to take courses related to IT. It was there that I discovered my passion for web development, leading me to enroll in a coding bootcamp. \n\n I am excited to pursue a career as a Full Stack Developer, combining my strong communication skills and attention to detail with my technical abilities. My background in customer service and degree in Journalism has taught me the importance of understanding clients' needs and delivering effective solutions. I am committed to staying up-to-date with the latest technologies and techniques in the field. \n\n Thank you for considering me for any opportunities that may be available. Please do not hesitate to contact me if you have any questions or would like to discuss potential collaborations.",
-  "titleProjects": "PROJECTS",
-  "titleContact": "CONTACT",
-  "contactDesc": "Feel free to reach me by email. I'll do my best to respond to you as soon as possible. If you prefer, you can also connect with me on social media. Thank you for taking an interest in my work. If you have any questions, comments, or just want to say hi, I'd love to hear from you.",
-  "footer": "Developed by "
+    "aboutMe": {
+        "title": "ABOUT ME",
+        "bio": "Hello, my name is Laura, and I am a 27-year-old recent graduate from a web programming bootcamp. After studying journalism, I realized it was not my passion, and I worked in different sectors, including commerce, catering, and customer service. Eventually, I found my way into the world of telecommunications, where I was given the opportunity to take courses related to IT. It was there that I discovered my passion for web development, leading me to enroll in a coding bootcamp. \n\n I am excited to pursue a career as a Full Stack Developer, combining my strong communication skills and attention to detail with my technical abilities. My background in customer service and degree in Journalism has taught me the importance of understanding clients' needs and delivering effective solutions. I am committed to staying up-to-date with the latest technologies and techniques in the field. \n\n Thank you for considering me for any opportunities that may be available. Please do not hesitate to contact me if you have any questions or would like to discuss potential collaborations."
+    },
+    "projects": {
+        "title": "PROJECTS"
+        },
+        "contact": {
+        "title": "CONTACT",
+        "desc": "Feel free to reach me by email. I'll do my best to respond to you as soon as possible. If you prefer, you can also connect with me on social media. Thank you for taking an interest in my work. If you have any questions, comments, or just want to say hi, I'd love to hear from you."
+        },
+    "footer": "Developed by "
 }
+
