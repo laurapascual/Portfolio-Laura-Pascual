@@ -14,8 +14,8 @@ const Menu = ({isMenuShown, handleClick}) => {
                     <a href="#aboutMe" className='menu__link'><li>ABOUT ME </li></a>|
                     <a href="#projects" className='menu__link'><li>PROJECTS </li></a>|
                     <a href="#contact" className='menu__link'><li>CONTACT </li></a>|
-                    <button onClick={() => handleClick("en")}><img src={en} alt='Flag'/></button>
-                    <button onClick={() => handleClick("es")}><img src={es} alt='Bandera'/></button>
+                    <button className='menu__btn' onClick={() => handleClick("en")}><img src={en} alt='Flag'/></button>
+                    <button className='menu__btn' onClick={() => handleClick("es")}><img src={es} alt='Bandera'/></button>
                 </ul>
                 
             </nav>

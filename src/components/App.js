@@ -21,6 +21,8 @@ import we from '../images/overImages/we.PNG';
 import quotes from '../images/overImages/quotes.PNG';
 import guess from '../images/overImages/guess.PNG';
 import comp from '../images/overImages/compass.PNG';
+import portfolio from '../images/projectImages/portfolio.PNG';
+import port from '../images/overImages/port.PNG';
 import Footer from './Footer';
 import { useTranslation } from "react-i18next";
 
@@ -64,6 +66,14 @@ const App = () => {
     repo: "https://github.com/laurapascual/cocktail-finder",
     demo: "https://laurapascual.github.io/cocktail-finder/",
     technologies: ["HTML", "CSS", "SASS", "JavaScript"]
+  },
+  {
+    image: portfolio,
+    overImage: port,
+    name: "Personal Portfolio",
+    repo: "https://github.com/laurapascual/Portfolio-Laura-Pascual",
+    demo: "https://laurapascual.github.io/Portfolio-Laura-Pascual/",
+    technologies: ["HTML", "SASS", "JavaScript", "React", "i18next"]
   },
   {
     image: friends,

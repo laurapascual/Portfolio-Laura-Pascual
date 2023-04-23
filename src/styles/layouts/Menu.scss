@@ -46,8 +46,19 @@
         width: 350px;
         transform: translate(-30vw, -5vh) rotate(50deg);
     }
+
+    &__btn {
+        background: none;
+        border: 0;
+        cursor: pointer;
+    }
 }
 
 .menu__link:hover{
     color: aquamarine;
+}
+
+.menu__btn:hover{
+    background-color: aquamarine;
+    border-radius: 2px;
 }
