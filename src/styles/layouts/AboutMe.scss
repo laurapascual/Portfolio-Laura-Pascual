@@ -67,6 +67,7 @@
         font-family: $font_text;
         font-size: 14px;
         line-height: 25px;
+        white-space: pre-line;
         @media (min-width: $breakpoint-tablet) {
             padding-left: 150px;
             padding-right: 150px;

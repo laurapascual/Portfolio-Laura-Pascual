@@ -56,7 +56,7 @@ const App = () => {
     name: "Personal Portfolio",
     repo: "https://github.com/laurapascual/Portfolio-Laura-Pascual",
     demo: "https://laurapascual.github.io/Portfolio-Laura-Pascual/",
-    technologies: ["HTML", "SASS", "JavaScript", "React", "i18next"]
+    technologies: ["HTML", "SASS", "JavaScript", "React", "React i18n"]
   },
   {
     image: friends,
