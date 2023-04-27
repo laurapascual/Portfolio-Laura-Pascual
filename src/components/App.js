@@ -7,9 +7,11 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
 import { useTranslation } from "react-i18next";
-import { harry, buy, cocktails, friends, potter, project, card, cocktail, we, quotes, guess, comp, compass, number, portfolio, port, cards, projects } from './compiled';
+import { harry, buy, cocktails, friends, potter, project, card, cocktail, we, quotes, guess, comp, compass, number, portfolio, port, cards, projects, hangman, game } from './compiled';
 
 const App = () => {
+  const [isMenuShown, setIsMenuShown] = useState(false);
+  const { t, i18n } = useTranslation();
   const projectList = [{
     image: harry,
     overImage: potter,
@@ -45,15 +47,23 @@ const App = () => {
   {
     image: cocktails,
     overImage: cocktail,
-    name: "Cocktail finder",
+    name: t("projects.cocktail"),
     repo: "https://github.com/laurapascual/cocktail-finder",
     demo: "https://laurapascual.github.io/cocktail-finder/",
     technologies: ["HTML", "CSS", "SASS", "JavaScript"]
   },
   {
+    image: hangman,
+    overImage: game,
+    name: t("projects.hangman"),
+    repo: "https://github.com/laurapascual/hangman-game/tree/main",
+    demo: "https://laurapascual.github.io/hangman-game/",
+    technologies: ["HTML", "CSS", "SASS", "JavaScript", "React"]
+  },
+  {
     image: portfolio,
     overImage: port,
-    name: "Personal Portfolio",
+    name: t("projects.portfolio"),
     repo: "https://github.com/laurapascual/Portfolio-Laura-Pascual",
     demo: "https://laurapascual.github.io/Portfolio-Laura-Pascual/",
     technologies: ["HTML", "SASS", "JavaScript", "React", "React i18n"]
@@ -61,7 +71,7 @@ const App = () => {
   {
     image: friends,
     overImage: quotes,
-    name: "Friends quotes",
+    name: t("projects.friends"),
     repo: "https://github.com/laurapascual/friends-quotes",
     demo: "https://laurapascual.github.io/friends-quotes/",
     technologies: ["HTML", "SASS", "JavaScript", "React"]
@@ -69,7 +79,7 @@ const App = () => {
   {
     image: compass,
     overImage: comp,
-    name: "Compass Project",
+    name: t("projects.compass"),
     repo: "https://github.com/laurapascual/compass-project",
     demo: "https://laurapascual.github.io/compass-project/",
     technologies: ["HTML", "CSS", "SASS"]
@@ -77,14 +87,13 @@ const App = () => {
   {
     image: number,
     overImage: guess,
-    name: "Guess the number",
+    name: t("projects.number"),
     repo: "https://github.com/laurapascual/guess-the-number",
     demo: "https://laurapascual.github.io/guess-the-number/",
     technologies: ["HTML", "CSS", "JavaScript"]
   }];
 
-  const [isMenuShown, setIsMenuShown] = useState(false);
-  const { t, i18n } = useTranslation();
+  
 
   function handleClick(lang) {
     i18n.changeLanguage(lang);

@@ -16,6 +16,8 @@ import guess from '../images/overImages/guess.PNG';
 import comp from '../images/overImages/compass.PNG';
 import portfolio from '../images/projectImages/portfolio.PNG';
 import port from '../images/overImages/port.PNG';
+import hangman from '../images/projectImages/hangman.PNG';
+import game from '../images/overImages/game.PNG';
 
 export { 
   harry,
@@ -35,5 +37,7 @@ export {
   guess,
   comp,
   portfolio,
-  port
+  port,
+  hangman,
+  game
 };

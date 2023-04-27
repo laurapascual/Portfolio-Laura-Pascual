@@ -4,7 +4,13 @@
       "bio": "Hola, me llamo Laura, tengo 27 años y acabo de graduarme en un bootcamp de programación web. Estudié Periodismo pero, tras unas prácticas en la universidad, me di cuenta de que no era lo que me gustaba. Desde entonces he trabajado en diferentes sectores (comercio, restauración, atención al cliente...) hasta que llegué al mundo de las telecomunicaciones. \n\n Aunque mi puesto no era cualificado, me brindaron la oportunidad de realizar diferentes cursos ligados a IT. De ahí surgió mi idea de continuar formándome en ese ámbito y apuntarme a un bootcamp de programación web. \n\n Puedo decir que ha sido una gran experiencia y que ha reafirmado mi idea de querer dedicarme a ello. Estoy motivada por empezar una carrera como desarrolladora Full Stack, combinando mis fuertes habilidades de comunicación y atención al detalle con mis habilidades técnicas. Mi experiencia en servicio al cliente y mi título en Periodismo me han enseñado la importancia de comprender las necesidades de los clientes y ofrecer soluciones efectivas. Me comprometo a mantenerme al día con las últimas tecnologías y técnicas en el campo. \n\n Gracias por considerarme para cualquier oportunidad que pueda estar disponible. Por favor, no dudes en ponerte en contacto conmigo si tienes alguna pregunta o si quieres hablar sobre posibles colaboraciones."
     },
     "projects": {
-      "title": "PROYECTOS"
+      "title": "PROYECTOS",
+      "cocktail": "Buscador de cocktails",
+      "hangman": "Juego del ahorcado",
+      "portfolio": "Portfolio personal",
+      "friends": "Frases de Friends",
+      "compass": "Proyecto burbuja",
+      "number": "Adivina el número"
     },
     "contact": {
       "title": "CONTACTO",
