@@ -121,7 +121,7 @@ const App = () => {
   return (
     <div className="App">
       <Landing handleMenuShown={handleMenuShown} isMenuShown={isMenuShown}/>
-      <Menu isMenuShown={isMenuShown} handleClick={handleClick}/> 
+      <Menu isMenuShown={isMenuShown} handleClick={handleClick} t={t}/> 
       <AboutMe t={t}/>
       <Projects projectList={projectList} t={t}/>
       <Contact t={t}/>
