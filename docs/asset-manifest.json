@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.ed758a09.css",
-    "main.js": "./static/js/main.1c2e0601.js",
+    "main.js": "./static/js/main.f171be67.js",
     "static/media/buy.PNG": "./static/media/buy.2a1d67545dcd7d7408b5.PNG",
+    "static/media/hangman.PNG": "./static/media/hangman.b4d322129d3e342fffa8.PNG",
     "static/media/brujula.PNG": "./static/media/brujula.e25ad410bf6d7e41561d.PNG",
     "static/media/number.PNG": "./static/media/number.be1cf2281877e62a4428.PNG",
     "static/media/harry.PNG": "./static/media/harry.d1f4515c4709f4f7fd2d.PNG",
     "static/media/cocktails.PNG": "./static/media/cocktails.a2096284d2d2a9e16c24.PNG",
+    "static/media/game.PNG": "./static/media/game.6909b81e65dfb706406d.PNG",
     "static/media/cocktail.PNG": "./static/media/cocktail.2c46f016a868e4dd4b76.PNG",
     "static/media/compass.PNG": "./static/media/compass.c9a992515f051991924a.PNG",
     "static/media/potter.PNG": "./static/media/potter.53a69d22600f2226e41b.PNG",
@@ -26,10 +28,10 @@
     "static/media/blueShape.svg": "./static/media/blueShape.53fe0558c5fbf506b3a0dc2695ce7665.svg",
     "index.html": "./index.html",
     "main.ed758a09.css.map": "./static/css/main.ed758a09.css.map",
-    "main.1c2e0601.js.map": "./static/js/main.1c2e0601.js.map"
+    "main.f171be67.js.map": "./static/js/main.f171be67.js.map"
   },
   "entrypoints": [
     "static/css/main.ed758a09.css",
-    "static/js/main.1c2e0601.js"
+    "static/js/main.f171be67.js"
   ]
 }
