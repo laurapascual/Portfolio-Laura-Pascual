@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ed758a09.css",
+    "main.css": "./static/css/main.4ecbfac0.css",
     "main.js": "./static/js/main.f171be67.js",
     "static/media/buy.PNG": "./static/media/buy.2a1d67545dcd7d7408b5.PNG",
     "static/media/hangman.PNG": "./static/media/hangman.b4d322129d3e342fffa8.PNG",
@@ -27,11 +27,11 @@
     "static/media/Maragsa-Display.woff": "./static/media/Maragsa-Display.7a8132a7f36f6203eeed.woff",
     "static/media/blueShape.svg": "./static/media/blueShape.53fe0558c5fbf506b3a0dc2695ce7665.svg",
     "index.html": "./index.html",
-    "main.ed758a09.css.map": "./static/css/main.ed758a09.css.map",
+    "main.4ecbfac0.css.map": "./static/css/main.4ecbfac0.css.map",
     "main.f171be67.js.map": "./static/js/main.f171be67.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed758a09.css",
+    "static/css/main.4ecbfac0.css",
     "static/js/main.f171be67.js"
   ]
 }
